@@ -14,6 +14,8 @@ public class Vowal_Consonents {
             if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'
                     || str.charAt(i) == 'u') {
                 vovel++;
+            } else if (str.charAt(i) == ' ') {
+
             } else {
                 con++;
             }
