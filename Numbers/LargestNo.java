@@ -1,16 +1,19 @@
 package Numbers;
 
 import java.util.*;
+
 public class LargestNo {
     public static void main(String[] args) {
-        System.out.println("Num are");
-        Scanner r=new Scanner(System.in);
-        int arr[] = new int[3];
-        for(int i=0;i<3;i++){
-            arr[i]=r.nextInt();
+        Scanner r = new Scanner(System.in);
+        System.out.println("Enter size");
+        System.out.println("array value are");
+        int size = r.nextInt();
+        int arr[] = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = r.nextInt();
         }
         Arrays.sort(arr);
-        System.out.println("Value is"+arr[arr.length-1]);
+        System.out.println("Value is " + arr[1]);
     }
-    
+
 }

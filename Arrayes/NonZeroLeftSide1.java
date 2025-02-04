@@ -1,11 +1,11 @@
 package Arrayes;
 
 import java.util.Scanner;
-
+// Approach 1->
 // size - 8
 // input - {9 0 7 44 0 78 99 0}
 // output - {9 7 44 78 99 0 0 0}
-public class NonZeroLeftSide {
+public class NonZeroLeftSide1 {
     public static void main(String[] args) {
         Scanner r = new Scanner(System.in);
         int size = r.nextInt();
